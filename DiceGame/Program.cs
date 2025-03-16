@@ -25,7 +25,7 @@ namespace DiceGame
                     Console.WriteLine("---------------------------NEXT ROUND------------------------------------");
                 }
                 Console.WriteLine("You rolled the dice for a number: {0}", playerDice);
-                Thread.Sleep(1000);
+                Thread.Sleep(1500);
                 playerAiDice = random.Next(1,7);
                 Console.WriteLine("AI player rolled the dice for a number: {0}", playerAiDice);
 
